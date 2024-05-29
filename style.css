@@ -260,13 +260,17 @@ nav a{
     margin-right: 20px; /* Add margin between thumbnail items */
     animation: rotateThumbnails 8s infinite; /* Apply rotation animation */
 }
-@media screen and (min-width:1000px) {
+@media (min-width:1000px) and (max-width:1180px){
     .thumbnail{
-       
+        position: absolute;
         top: 370px;
         right: 150px;
-    
     }
+    .arrows{
+    position: absolute;
+    top: 35%;
+    right: 45%;
+}
 } 
 
 
